@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
 - Estimated Annual Savings: ₹${annualSavings.toLocaleString('en-IN')}
 Please share a formal rooftop solar quotation for my property in Indore.`;
 
-      calcWhatsappBtn.href = `https://wa.me/917948218938?text=${encodeURIComponent(message)}`;
+      calcWhatsappBtn.href = `https://wa.me/917987734336?text=${encodeURIComponent(message)}`;
     }
   }
 
@@ -256,7 +256,7 @@ Please share a formal rooftop solar quotation for my property in Indore.`;
 Please contact me for site inspection and net metering details.`;
 
     // WhatsApp Direct Link
-    const waUrl = `https://wa.me/917948218938?text=${encodeURIComponent(message)}`;
+    const waUrl = `https://wa.me/917987734336?text=${encodeURIComponent(message)}`;
 
     if (formSuccess) {
       formSuccess.classList.remove('hidden');

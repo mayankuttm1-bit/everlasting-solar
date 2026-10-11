@@ -12,7 +12,7 @@ Institutional-grade, high-converting static web platform and sales engine for **
 - **Company:** Everlasting Solar
 - **Leadership:** Shashwat Soni (CEO / Managing Director)
 - **Headquarters:** Indore, Madhya Pradesh (Coordinates: 22.7403072, 75.8282295)
-- **Hotline:** +91 79482 18938
+- **Hotline:** +91 79877 34336
 - **Empaneled DISCOM:** MPPKVVCL (MP Paschim Kshetra Vidyut Vitaran Co. Ltd. - West Discom)
 - **Central Scheme:** PM Surya Ghar: Muft Bijli Yojana (Up to ₹78,000 Direct DBT Subsidy)
 - **Tier-1 Partner Brands:** Waaree Energies, Adani Solar, Rayzon Solar, Havells, Growatt, Sungrow
@@ -24,8 +24,8 @@ Strict adherence to [`GEMINI.md`](../GEMINI.md) & [`AGENTS.md`](../AGENTS.md):
 - **Zero Color Gradients:** Pure solid palette (Deep Slate `#0F172A`, Slate `#020617`, Solar Amber `#D97706`, Clean Tech Emerald `#059669`).
 - **Clean Sticky Header:** Very first element inside `<body>`, zero clutter above header, exactly 5 concise single-word nav links (`Home`, `Solutions`, `Calculator`, `Projects`, `Contact`).
 - **Signature Floating Action Buttons (FAB):** Bottom-right fixed dual buttons:
-  - Top: Call button (`tel:+917948218938`)
-  - Bottom: Pulsing WhatsApp button (`https://wa.me/917948218938`) in WhatsApp Green (`#25D366`) with soft pulse animation.
+  - Top: Call button (`tel:+917987734336`)
+  - Bottom: Pulsing WhatsApp button (`https://wa.me/917987734336`) in WhatsApp Green (`#25D366`) with soft pulse animation.
 - **Refined Geometry:** Consistent modern `rounded-lg` (8px) corner radius.
 - **100% Mobile Optimized:** Zero horizontal scroll (`overflow-x: hidden`), vertically stacked layouts, non-wrapping CTA buttons, and swipeable project cards.
 - **Pure Jamstack Architecture:** Fast static HTML5, Tailwind CSS, Lucide SVG Icons, and vanilla JavaScript client-side computation.
