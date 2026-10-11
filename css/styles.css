@@ -1,0 +1,263 @@
+/* ==========================================================================
+   EVERLASTING SOLAR - DESIGN SYSTEM & MOTION STYLESHEET
+   Strict adherence to GEMINI.md & AGENTS.md:
+   - Solid brand colors (Zero color gradients)
+   - Refined corner radius (rounded-lg: 8px)
+   - Signature Floating Action Buttons (Call + Pulsing WhatsApp)
+   - Clean scroll reveals and smooth interactive UI states
+   ========================================================================== */
+
+/* Root Typography & Reset */
+:root {
+  --color-slate-950: #020617;
+  --color-slate-900: #0f172a;
+  --color-slate-800: #1e293b;
+  --color-slate-700: #334155;
+  --color-slate-100: #f1f5f9;
+  --color-slate-50: #f8fafc;
+  --color-amber-500: #f59e0b;
+  --color-amber-600: #d97706;
+  --color-amber-700: #b45309;
+  --color-emerald-500: #10b981;
+  --color-emerald-600: #059669;
+  --color-whatsapp: #25d366;
+  --color-whatsapp-hover: #1eb855;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #ffffff;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Strict Prohibition: Zero horizontal scroll */
+* {
+  box-sizing: border-box;
+}
+
+/* Solid Glass Header (Backdrop Blur with solid translucent fallback) */
+.glass-header {
+  background-color: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-header.scrolled {
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.08);
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Signature Floating Action Buttons (FAB) */
+.fab-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.fab-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.25), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
+  text-decoration: none;
+}
+
+.fab-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.fab-call {
+  background-color: #0f172a;
+  color: #ffffff;
+  border: 2px solid #334155;
+}
+
+.fab-call:hover {
+  background-color: #1e293b;
+  color: #f59e0b;
+}
+
+.fab-whatsapp {
+  background-color: var(--color-whatsapp);
+  color: #ffffff;
+  position: relative;
+}
+
+.fab-whatsapp:hover {
+  background-color: var(--color-whatsapp-hover);
+}
+
+/* WhatsApp Soft Pulse Animation */
+@keyframes fab-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.65);
+  }
+  70% {
+    box-shadow: 0 0 0 16px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+.fab-whatsapp-pulse {
+  animation: fab-pulse 2.2s infinite;
+}
+
+/* Tooltip for FAB */
+.fab-tooltip {
+  position: absolute;
+  right: 68px;
+  background-color: #0f172a;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateX(10px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.fab-btn:hover .fab-tooltip {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Range Slider Styling for Solar Savings Calculator */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #d97706;
+  cursor: pointer;
+  border: 3px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  background: #b45309;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #d97706;
+  cursor: pointer;
+  border: 3px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Hover Elevation (Solid, Refined) */
+.card-solid {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px; /* Strict rounded-lg 8px rule */
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.card-solid:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px -6px rgba(15, 23, 42, 0.08);
+  border-color: #cbd5e1;
+}
+
+.card-slate {
+  background-color: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease;
+}
+
+.card-slate:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px -8px rgba(0, 0, 0, 0.4);
+}
+
+/* Accordion Smooth Expansion */
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s cubic-bezier(0, 1, 0, 1), opacity 0.3s ease;
+  opacity: 0;
+}
+
+.faq-content.open {
+  max-height: 500px;
+  opacity: 1;
+  transition: max-height 0.4s ease-in-out, opacity 0.3s ease;
+}
+
+/* Scroll Animation Reveal Classes */
+.reveal-item {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-item.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Horizontal scroll container for mobile card swiping (Rule 3) */
+@media (max-width: 767px) {
+  .mobile-swipe-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 16px;
+    gap: 16px;
+  }
+  
+  .mobile-swipe-grid > * {
+    flex: 0 0 85%;
+    scroll-snap-align: start;
+  }
+  
+  /* Hide scrollbar for mobile swiping */
+  .mobile-swipe-grid::-webkit-scrollbar {
+    display: none;
+  }
+  .mobile-swipe-grid {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
