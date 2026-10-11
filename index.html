@@ -45,6 +45,9 @@
     }
   </script>
 
+  <!-- AOS (Animate On Scroll) CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
   <!-- Lucide Icons CDN -->
   <script src="https://unpkg.com/lucide@latest"></script>
 
@@ -100,7 +103,7 @@
             <i data-lucide="phone-call" class="w-4 h-4 mr-2 text-amber-600"></i>
             <span>+91 79482 18938</span>
           </a>
-          <a href="#contact" class="inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-amber-600 hover:bg-amber-700 text-white text-sm font-bold shadow-sm transition-all hover:shadow">
+          <a href="#contact" class="inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-amber-600 hover:bg-amber-700 text-white text-sm font-bold shadow-sm transition-all hover:shadow hover:-translate-y-0.5">
             <span>Get Free Quote</span>
             <i data-lucide="arrow-right" class="w-4 h-4 ml-1.5"></i>
           </a>
@@ -155,14 +158,14 @@
   <!-- 2. HERO SECTION                                                       -->
   <!-- ===================================================================== -->
   <section id="hero" class="relative bg-brand-dark text-white overflow-hidden py-20 lg:py-28">
-    <!-- Solid Dark Overlay over High-Res Unsplash Solar Photo -->
+    <!-- Solid Dark Overlay over Verified Local Solar Photo -->
     <div class="absolute inset-0 z-0">
-      <img src="https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=1920&q=80" alt="Everlasting Solar Rooftop Installation in Indore" class="w-full h-full object-cover object-center opacity-25">
+      <img src="assets/projects/hero.jpg" alt="Everlasting Solar Rooftop Installation in Indore" class="w-full h-full object-cover object-center opacity-30">
       <div class="absolute inset-0 bg-slate-950/85"></div>
     </div>
 
     <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="max-w-3xl">
+      <div class="max-w-3xl" data-aos="fade-up" data-aos-duration="800">
         
         <!-- Social Proof Trust Badge -->
         <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-lg bg-slate-800 border border-slate-700 text-xs font-semibold mb-6">
@@ -186,11 +189,11 @@
 
         <!-- Dual CTA Buttons (Single-line on mobile - Rule 7) -->
         <div class="flex flex-col sm:flex-row items-stretch sm:items-center space-y-3 sm:space-y-0 sm:space-x-4 mb-10">
-          <a href="#calculator" class="inline-flex items-center justify-center px-7 py-4 rounded-lg bg-amber-600 hover:bg-amber-700 text-white font-bold text-base shadow transition-all">
+          <a href="#calculator" class="inline-flex items-center justify-center px-7 py-4 rounded-lg bg-amber-600 hover:bg-amber-700 text-white font-bold text-base shadow transition-all hover:-translate-y-0.5">
             <i data-lucide="calculator" class="w-5 h-5 mr-2"></i>
             <span>Calculate Solar Savings</span>
           </a>
-          <a href="https://wa.me/917948218938?text=Hello%20Everlasting%20Solar,%20I%20am%20interested%20in%20a%20rooftop%20solar%20consultation%20in%20Indore." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-7 py-4 rounded-lg bg-slate-800 hover:bg-slate-700 text-white font-semibold text-base border border-slate-700 transition-all">
+          <a href="https://wa.me/917948218938?text=Hello%20Everlasting%20Solar,%20I%20am%20interested%20in%20a%20rooftop%20solar%20consultation%20in%20Indore." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-7 py-4 rounded-lg bg-slate-800 hover:bg-slate-700 text-white font-semibold text-base border border-slate-700 transition-all hover:-translate-y-0.5">
             <i data-lucide="message-circle" class="w-5 h-5 mr-2 text-emerald-400"></i>
             <span>Chat on WhatsApp</span>
           </a>
@@ -221,9 +224,9 @@
   <!-- ===================================================================== -->
   <section class="bg-brand-darker py-10 border-y border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="metrics-container grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+      <div class="metrics-container grid grid-cols-2 lg:grid-cols-4 gap-6 text-center" data-aos="fade-up">
         
-        <div class="p-6 bg-slate-900 border border-slate-800 rounded-lg">
+        <div class="p-6 bg-slate-900 border border-slate-800 rounded-lg hover:border-amber-500/50 transition-colors">
           <div class="text-3xl sm:text-4xl font-extrabold text-amber-500 mb-1 metric-counter" data-target="5.2" data-suffix=" MW+">
             5.2 MW+
           </div>
@@ -231,7 +234,7 @@
           <div class="text-[11px] text-slate-500 mt-1">Across Indore & Malwa region</div>
         </div>
 
-        <div class="p-6 bg-slate-900 border border-slate-800 rounded-lg">
+        <div class="p-6 bg-slate-900 border border-slate-800 rounded-lg hover:border-amber-500/50 transition-colors">
           <div class="text-3xl sm:text-4xl font-extrabold text-amber-500 mb-1 metric-counter" data-target="78000" data-prefix="₹" data-suffix=" Max">
             ₹78,000 Max
           </div>
@@ -239,7 +242,7 @@
           <div class="text-[11px] text-slate-500 mt-1">Direct Bank Account Transfer</div>
         </div>
 
-        <div class="p-6 bg-slate-900 border border-slate-800 rounded-lg">
+        <div class="p-6 bg-slate-900 border border-slate-800 rounded-lg hover:border-amber-500/50 transition-colors">
           <div class="text-3xl sm:text-4xl font-extrabold text-amber-500 mb-1 metric-counter" data-target="25" data-suffix=" Years">
             25 Years
           </div>
@@ -247,7 +250,7 @@
           <div class="text-[11px] text-slate-500 mt-1">Tier-1 Guaranteed Output</div>
         </div>
 
-        <div class="p-6 bg-slate-900 border border-slate-800 rounded-lg">
+        <div class="p-6 bg-slate-900 border border-slate-800 rounded-lg hover:border-amber-500/50 transition-colors">
           <div class="text-3xl sm:text-4xl font-extrabold text-amber-500 mb-1 metric-counter" data-target="100" data-suffix="%">
             100%
           </div>
@@ -266,7 +269,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <!-- Section Header -->
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
         <span class="inline-block px-3 py-1 rounded-lg bg-amber-100 text-amber-800 text-xs font-bold uppercase tracking-wider mb-3">
           Why Everlasting Solar
         </span>
@@ -281,8 +284,8 @@
       <!-- 6 Solid Scannable Cards -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         
-        <div class="card-solid p-6">
-          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-5">
+        <div class="card-solid p-6 group" data-aos="fade-up" data-aos-delay="100">
+          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
             <i data-lucide="shield-check" class="w-6 h-6"></i>
           </div>
           <h3 class="text-lg font-bold text-slate-900 mb-2">100% Tier-1 Approved Brands</h3>
@@ -291,8 +294,8 @@
           </p>
         </div>
 
-        <div class="card-solid p-6">
-          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-5">
+        <div class="card-solid p-6 group" data-aos="fade-up" data-aos-delay="200">
+          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
             <i data-lucide="wrench" class="w-6 h-6"></i>
           </div>
           <h3 class="text-lg font-bold text-slate-900 mb-2">Leak-Proof Roof Mounting</h3>
@@ -301,8 +304,8 @@
           </p>
         </div>
 
-        <div class="card-solid p-6">
-          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-5">
+        <div class="card-solid p-6 group" data-aos="fade-up" data-aos-delay="300">
+          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
             <i data-lucide="file-check" class="w-6 h-6"></i>
           </div>
           <h3 class="text-lg font-bold text-slate-900 mb-2">End-to-End MPPKVVCL Liaisoning</h3>
@@ -311,8 +314,8 @@
           </p>
         </div>
 
-        <div class="card-solid p-6">
-          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-5">
+        <div class="card-solid p-6 group" data-aos="fade-up" data-aos-delay="150">
+          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
             <i data-lucide="sparkles" class="w-6 h-6"></i>
           </div>
           <h3 class="text-lg font-bold text-slate-900 mb-2">Drone & 3D Shadow Analysis</h3>
@@ -321,8 +324,8 @@
           </p>
         </div>
 
-        <div class="card-solid p-6">
-          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-5">
+        <div class="card-solid p-6 group" data-aos="fade-up" data-aos-delay="250">
+          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
             <i data-lucide="badge-percent" class="w-6 h-6"></i>
           </div>
           <h3 class="text-lg font-bold text-slate-900 mb-2">40% Accelerated Depreciation</h3>
@@ -331,8 +334,8 @@
           </p>
         </div>
 
-        <div class="card-solid p-6">
-          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-5">
+        <div class="card-solid p-6 group" data-aos="fade-up" data-aos-delay="350">
+          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
             <i data-lucide="headphones" class="w-6 h-6"></i>
           </div>
           <h3 class="text-lg font-bold text-slate-900 mb-2">5-Year Workmanship & AMC Care</h3>
@@ -352,7 +355,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <!-- Section Header -->
-      <div class="text-center max-w-3xl mx-auto mb-14">
+      <div class="text-center max-w-3xl mx-auto mb-14" data-aos="fade-up">
         <span class="inline-block px-3 py-1 rounded-lg bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider mb-3">
           Customized Solar Offerings
         </span>
@@ -365,7 +368,7 @@
       </div>
 
       <!-- Tab Switcher Navigation -->
-      <div class="flex flex-wrap justify-center gap-2 mb-12">
+      <div class="flex flex-wrap justify-center gap-2 mb-12" data-aos="fade-up">
         <button type="button" data-target="residential" class="solution-tab-btn px-5 py-2.5 rounded-lg text-sm font-bold bg-amber-600 text-white shadow transition-all">
           Residential Rooftops
         </button>
@@ -381,7 +384,7 @@
       </div>
 
       <!-- Tab 1: Residential Rooftop (Active) -->
-      <div id="solution-residential" class="solution-panel">
+      <div id="solution-residential" class="solution-panel" data-aos="fade-up">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div class="order-2 lg:order-1 space-y-5">
             <span class="inline-block px-3 py-1 rounded-lg bg-amber-100 text-amber-800 text-xs font-bold">1 kW to 10 kW Systems</span>
@@ -406,14 +409,14 @@
               </div>
             </div>
             <div class="pt-4">
-              <a href="#calculator" class="inline-flex items-center px-6 py-3 rounded-lg bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm">
+              <a href="#calculator" class="inline-flex items-center px-6 py-3 rounded-lg bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm transition-all hover:-translate-y-0.5">
                 <span>Calculate Your Home Sizing</span>
                 <i data-lucide="chevron-right" class="w-4 h-4 ml-1.5 text-amber-500"></i>
               </a>
             </div>
           </div>
           <div class="order-1 lg:order-2">
-            <img src="https://images.unsplash.com/photo-1545208942-e1c9c916524b?auto=format&fit=crop&w=900&q=80" alt="Residential Solar Rooftop in Indore" class="w-full h-80 sm:h-96 object-cover rounded-lg shadow-sm border border-slate-200">
+            <img src="assets/projects/project1.jpg" alt="Residential Solar Rooftop in Indore" class="w-full h-80 sm:h-96 object-cover rounded-lg shadow-sm border border-slate-200">
           </div>
         </div>
       </div>
@@ -444,14 +447,14 @@
               </div>
             </div>
             <div class="pt-4">
-              <a href="#contact" class="inline-flex items-center px-6 py-3 rounded-lg bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm">
+              <a href="#contact" class="inline-flex items-center px-6 py-3 rounded-lg bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm transition-all hover:-translate-y-0.5">
                 <span>Request B2B Feasibility Report</span>
                 <i data-lucide="chevron-right" class="w-4 h-4 ml-1.5 text-amber-500"></i>
               </a>
             </div>
           </div>
           <div class="order-1 lg:order-2">
-            <img src="https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=900&q=80" alt="Commercial Solar Rooftop Installation" class="w-full h-80 sm:h-96 object-cover rounded-lg shadow-sm border border-slate-200">
+            <img src="assets/projects/project2.jpg" alt="Commercial Solar Rooftop Installation" class="w-full h-80 sm:h-96 object-cover rounded-lg shadow-sm border border-slate-200">
           </div>
         </div>
       </div>
@@ -482,14 +485,14 @@
               </div>
             </div>
             <div class="pt-4">
-              <a href="#contact" class="inline-flex items-center px-6 py-3 rounded-lg bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm">
+              <a href="#contact" class="inline-flex items-center px-6 py-3 rounded-lg bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm transition-all hover:-translate-y-0.5">
                 <span>Book RWA Society Audit</span>
                 <i data-lucide="chevron-right" class="w-4 h-4 ml-1.5 text-amber-500"></i>
               </a>
             </div>
           </div>
           <div class="order-1 lg:order-2">
-            <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=900&q=80" alt="Housing Society Solar Energy in Indore" class="w-full h-80 sm:h-96 object-cover rounded-lg shadow-sm border border-slate-200">
+            <img src="assets/projects/project4.jpg" alt="Housing Society Solar Energy in Indore" class="w-full h-80 sm:h-96 object-cover rounded-lg shadow-sm border border-slate-200">
           </div>
         </div>
       </div>
@@ -520,14 +523,14 @@
               </div>
             </div>
             <div class="pt-4">
-              <a href="#contact" class="inline-flex items-center px-6 py-3 rounded-lg bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm">
+              <a href="#contact" class="inline-flex items-center px-6 py-3 rounded-lg bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm transition-all hover:-translate-y-0.5">
                 <span>Inquire for Agri Solar</span>
                 <i data-lucide="chevron-right" class="w-4 h-4 ml-1.5 text-amber-500"></i>
               </a>
             </div>
           </div>
           <div class="order-1 lg:order-2">
-            <img src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=900&q=80" alt="Agricultural Solar Irrigation System" class="w-full h-80 sm:h-96 object-cover rounded-lg shadow-sm border border-slate-200">
+            <img src="assets/projects/project5.jpg" alt="Agricultural Solar Irrigation System" class="w-full h-80 sm:h-96 object-cover rounded-lg shadow-sm border border-slate-200">
           </div>
         </div>
       </div>
@@ -541,7 +544,7 @@
   <section class="py-20 bg-brand-light border-y border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
         <span class="inline-block px-3 py-1 rounded-lg bg-slate-200 text-slate-800 text-xs font-bold uppercase tracking-wider mb-3">
           Seamless Workflow
         </span>
@@ -556,7 +559,7 @@
       <!-- 5-Step Process (Clean Grid, Stacked cleanly on mobile) -->
       <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
         
-        <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm relative">
+        <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm relative hover:-translate-y-1 transition-transform" data-aos="fade-up" data-aos-delay="100">
           <div class="w-10 h-10 rounded-lg bg-amber-600 text-white font-extrabold flex items-center justify-center mb-4 text-base">
             01
           </div>
@@ -566,7 +569,7 @@
           </p>
         </div>
 
-        <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm relative">
+        <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm relative hover:-translate-y-1 transition-transform" data-aos="fade-up" data-aos-delay="200">
           <div class="w-10 h-10 rounded-lg bg-amber-600 text-white font-extrabold flex items-center justify-center mb-4 text-base">
             02
           </div>
@@ -576,7 +579,7 @@
           </p>
         </div>
 
-        <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm relative">
+        <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm relative hover:-translate-y-1 transition-transform" data-aos="fade-up" data-aos-delay="300">
           <div class="w-10 h-10 rounded-lg bg-amber-600 text-white font-extrabold flex items-center justify-center mb-4 text-base">
             03
           </div>
@@ -586,7 +589,7 @@
           </p>
         </div>
 
-        <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm relative">
+        <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm relative hover:-translate-y-1 transition-transform" data-aos="fade-up" data-aos-delay="400">
           <div class="w-10 h-10 rounded-lg bg-amber-600 text-white font-extrabold flex items-center justify-center mb-4 text-base">
             04
           </div>
@@ -596,7 +599,7 @@
           </p>
         </div>
 
-        <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm relative">
+        <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm relative hover:-translate-y-1 transition-transform" data-aos="fade-up" data-aos-delay="500">
           <div class="w-10 h-10 rounded-lg bg-emerald-600 text-white font-extrabold flex items-center justify-center mb-4 text-base">
             05
           </div>
@@ -617,7 +620,7 @@
   <section id="calculator" class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-14">
+      <div class="text-center max-w-3xl mx-auto mb-14" data-aos="fade-up">
         <span class="inline-block px-3 py-1 rounded-lg bg-amber-100 text-amber-800 text-xs font-bold uppercase tracking-wider mb-3">
           Instant Financial Simulator
         </span>
@@ -630,7 +633,7 @@
       </div>
 
       <!-- Calculator Card (Solid Container) -->
-      <div class="max-w-4xl mx-auto bg-brand-light border border-slate-200 rounded-lg p-6 sm:p-10 shadow-sm">
+      <div class="max-w-4xl mx-auto bg-brand-light border border-slate-200 rounded-lg p-6 sm:p-10 shadow-sm" data-aos="zoom-in">
         
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
@@ -715,7 +718,7 @@
                 <div class="text-xs text-slate-500 font-medium">Estimated 25-Year Lifetime Savings</div>
                 <div id="calc-lifetime-savings" class="text-2xl font-extrabold text-slate-900">₹8,55,000</div>
               </div>
-              <a id="calc-whatsapp-btn" href="#" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow transition-all">
+              <a id="calc-whatsapp-btn" href="#" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow transition-all hover:-translate-y-0.5">
                 <i data-lucide="send" class="w-4 h-4 mr-2"></i>
                 <span>Get This Proposal</span>
               </a>
@@ -731,12 +734,12 @@
   </section>
 
   <!-- ===================================================================== -->
-  <!-- 8. OUR PROJECTS                                                       -->
+  <!-- 8. OUR PROJECTS (USING REAL VERIFIED LOCAL ASSETS)                     -->
   <!-- ===================================================================== -->
   <section id="projects" class="py-20 bg-brand-light border-y border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
         <span class="inline-block px-3 py-1 rounded-lg bg-slate-200 text-slate-800 text-xs font-bold uppercase tracking-wider mb-3">
           Proven Track Record
         </span>
@@ -751,16 +754,18 @@
       <!-- Project Cards Grid (Mobile swipeable - Rule 3) -->
       <div class="mobile-swipe-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         
-        <!-- Project 1 -->
-        <div class="card-solid overflow-hidden flex flex-col">
-          <img src="https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=700&q=80" alt="10 kW Rooftop Solar Nipania Indore" class="w-full h-52 object-cover">
+        <!-- Project 1 (Fixed with Local Verified High-Res Image) -->
+        <div class="card-solid overflow-hidden flex flex-col group hover:-translate-y-2 hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+          <div class="overflow-hidden h-52 bg-slate-200">
+            <img src="assets/projects/project1.jpg" alt="10 kW Rooftop Solar Nipania Indore" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
           <div class="p-6 flex-1 flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between text-xs font-bold mb-2">
                 <span class="px-2.5 py-1 rounded bg-amber-100 text-amber-800">10 kW Residential</span>
                 <span class="text-slate-500">Nipania, Indore</span>
               </div>
-              <h3 class="text-base font-bold text-slate-900 mb-1">Luxury Villa Rooftop Solar Plant</h3>
+              <h3 class="text-base font-bold text-slate-900 mb-1 group-hover:text-amber-600 transition-colors">Luxury Villa Rooftop Solar Plant</h3>
               <p class="text-xs text-slate-600 mb-3">Waaree Bi-Facial TopCon Modules + Growatt Cloud Monitoring. Power bill dropped from ₹9,800 to minimum meter rent.</p>
             </div>
             <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-slate-700">
@@ -770,16 +775,18 @@
           </div>
         </div>
 
-        <!-- Project 2 -->
-        <div class="card-solid overflow-hidden flex flex-col">
-          <img src="https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=700&q=80" alt="45 kW Industrial Solar Sanwer Road Indore" class="w-full h-52 object-cover">
+        <!-- Project 2 (Fixed with Local Verified High-Res Image) -->
+        <div class="card-solid overflow-hidden flex flex-col group hover:-translate-y-2 hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+          <div class="overflow-hidden h-52 bg-slate-200">
+            <img src="assets/projects/project2.jpg" alt="45 kW Industrial Solar Sanwer Road Indore" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
           <div class="p-6 flex-1 flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between text-xs font-bold mb-2">
                 <span class="px-2.5 py-1 rounded bg-slate-900 text-white">45 kW Commercial</span>
                 <span class="text-slate-500">Sanwer Road, Indore</span>
               </div>
-              <h3 class="text-base font-bold text-slate-900 mb-1">Industrial Packaging Unit PEB Shed</h3>
+              <h3 class="text-base font-bold text-slate-900 mb-1 group-hover:text-amber-600 transition-colors">Industrial Packaging Unit PEB Shed</h3>
               <p class="text-xs text-slate-600 mb-3">Non-penetrative standing seam clamps on industrial shed with Sungrow 50kW inverter. Claimed 40% depreciation.</p>
             </div>
             <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-slate-700">
@@ -790,15 +797,17 @@
         </div>
 
         <!-- Project 3 -->
-        <div class="card-solid overflow-hidden flex flex-col">
-          <img src="https://images.unsplash.com/photo-1545208942-e1c9c916524b?auto=format&fit=crop&w=700&q=80" alt="5 kW On-Grid Solar Vijay Nagar Indore" class="w-full h-52 object-cover">
+        <div class="card-solid overflow-hidden flex flex-col group hover:-translate-y-2 hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
+          <div class="overflow-hidden h-52 bg-slate-200">
+            <img src="assets/projects/project3.jpg" alt="5 kW On-Grid Solar Vijay Nagar Indore" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
           <div class="p-6 flex-1 flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between text-xs font-bold mb-2">
                 <span class="px-2.5 py-1 rounded bg-amber-100 text-amber-800">5 kW Residential</span>
                 <span class="text-slate-500">Vijay Nagar, Indore</span>
               </div>
-              <h3 class="text-base font-bold text-slate-900 mb-1">Duplex Rooftop Solarization</h3>
+              <h3 class="text-base font-bold text-slate-900 mb-1 group-hover:text-amber-600 transition-colors">Duplex Rooftop Solarization</h3>
               <p class="text-xs text-slate-600 mb-3">Adani Solar 550W Mono PERC with MPPKVVCL net meter. Customer received ₹78,000 DBT subsidy in 35 days.</p>
             </div>
             <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-slate-700">
@@ -809,15 +818,17 @@
         </div>
 
         <!-- Project 4 -->
-        <div class="card-solid overflow-hidden flex flex-col">
-          <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=700&q=80" alt="120 kW Industrial Solar Pithampur" class="w-full h-52 object-cover">
+        <div class="card-solid overflow-hidden flex flex-col group hover:-translate-y-2 hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="150">
+          <div class="overflow-hidden h-52 bg-slate-200">
+            <img src="assets/projects/project4.jpg" alt="120 kW Industrial Solar Pithampur" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
           <div class="p-6 flex-1 flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between text-xs font-bold mb-2">
                 <span class="px-2.5 py-1 rounded bg-slate-900 text-white">120 kW Industrial</span>
                 <span class="text-slate-500">Pithampur Sec-3, MP</span>
               </div>
-              <h3 class="text-base font-bold text-slate-900 mb-1">Heavy Engineering Factory Solar</h3>
+              <h3 class="text-base font-bold text-slate-900 mb-1 group-hover:text-amber-600 transition-colors">Heavy Engineering Factory Solar</h3>
               <p class="text-xs text-slate-600 mb-3">Complete EPC solution powering factory induction furnace and CNC line with HT bi-directional meter synchronization.</p>
             </div>
             <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-slate-700">
@@ -828,15 +839,17 @@
         </div>
 
         <!-- Project 5 -->
-        <div class="card-solid overflow-hidden flex flex-col">
-          <img src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=700&q=80" alt="7.5 HP Solar Pump Dewas Naka Peri-urban" class="w-full h-52 object-cover">
+        <div class="card-solid overflow-hidden flex flex-col group hover:-translate-y-2 hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="250">
+          <div class="overflow-hidden h-52 bg-slate-200">
+            <img src="assets/projects/project5.jpg" alt="7.5 HP Solar Pump Dewas Naka Peri-urban" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
           <div class="p-6 flex-1 flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between text-xs font-bold mb-2">
                 <span class="px-2.5 py-1 rounded bg-emerald-100 text-emerald-800">7.5 HP Solar Pump</span>
                 <span class="text-slate-500">Dewas Naka / Bypass</span>
               </div>
-              <h3 class="text-base font-bold text-slate-900 mb-1">Agricultural Deep Borewell Pumping</h3>
+              <h3 class="text-base font-bold text-slate-900 mb-1 group-hover:text-amber-600 transition-colors">Agricultural Deep Borewell Pumping</h3>
               <p class="text-xs text-slate-600 mb-3">Solar VFD controller with mono submersible pump delivering 1.8 Lakh litres/day for multi-crop farmland irrigation.</p>
             </div>
             <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-slate-700">
@@ -847,15 +860,17 @@
         </div>
 
         <!-- Project 6 -->
-        <div class="card-solid overflow-hidden flex flex-col">
-          <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=700&q=80" alt="20 kW Housing Society Super Corridor Indore" class="w-full h-52 object-cover">
+        <div class="card-solid overflow-hidden flex flex-col group hover:-translate-y-2 hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="350">
+          <div class="overflow-hidden h-52 bg-slate-200">
+            <img src="assets/projects/project6.jpg" alt="20 kW Housing Society Super Corridor Indore" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
           <div class="p-6 flex-1 flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between text-xs font-bold mb-2">
                 <span class="px-2.5 py-1 rounded bg-amber-100 text-amber-800">20 kW RWA Society</span>
                 <span class="text-slate-500">Super Corridor, Indore</span>
               </div>
-              <h3 class="text-base font-bold text-slate-900 mb-1">Residential Highrise Common Meter</h3>
+              <h3 class="text-base font-bold text-slate-900 mb-1 group-hover:text-amber-600 transition-colors">Residential Highrise Common Meter</h3>
               <p class="text-xs text-slate-600 mb-3">Powers 4 high-speed passenger elevators and common campus LED illumination, slashing resident monthly maintenance.</p>
             </div>
             <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-slate-700">
@@ -871,12 +886,12 @@
   </section>
 
   <!-- ===================================================================== -->
-  <!-- 9. PRODUCTS / BRANDS                                                  -->
+  <!-- 9. PRODUCTS / BRANDS (OFFICIAL SQUARE LOGOS - EXACT USER REQUEST)    -->
   <!-- ===================================================================== -->
   <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-14">
+      <div class="text-center max-w-3xl mx-auto mb-14" data-aos="fade-up">
         <span class="inline-block px-3 py-1 rounded-lg bg-amber-100 text-amber-800 text-xs font-bold uppercase tracking-wider mb-3">
           Authorized Distribution & Partner Brands
         </span>
@@ -888,55 +903,73 @@
         </p>
       </div>
 
-      <!-- Brands Grid -->
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+      <!-- Square Sized Official Brand Logos Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
         
-        <div class="card-solid p-6 text-center flex flex-col items-center justify-center">
-          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-3">
-            <i data-lucide="sun" class="w-6 h-6"></i>
+        <!-- 1. Waaree Official Square Logo -->
+        <div class="card-solid p-4 text-center flex flex-col items-center justify-between group hover:-translate-y-2 hover:shadow-lg transition-all duration-300" data-aos="zoom-in" data-aos-delay="100">
+          <div class="w-full aspect-square p-2 flex items-center justify-center bg-slate-50 rounded-lg border border-slate-100 group-hover:border-amber-400 group-hover:bg-white transition-all">
+            <img src="assets/brands/waaree.svg" alt="Waaree Energies Official Logo" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
           </div>
-          <div class="font-extrabold text-slate-900 text-sm">WAAREE</div>
-          <div class="text-[11px] text-slate-500 mt-0.5">TopCon & Bifacial</div>
+          <div class="mt-3">
+            <div class="font-extrabold text-slate-900 text-sm group-hover:text-amber-600 transition-colors">WAAREE</div>
+            <div class="text-[11px] text-slate-500 font-medium">TopCon & Bifacial</div>
+          </div>
         </div>
 
-        <div class="card-solid p-6 text-center flex flex-col items-center justify-center">
-          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-3">
-            <i data-lucide="zap" class="w-6 h-6"></i>
+        <!-- 2. Adani Solar Official Square Logo -->
+        <div class="card-solid p-4 text-center flex flex-col items-center justify-between group hover:-translate-y-2 hover:shadow-lg transition-all duration-300" data-aos="zoom-in" data-aos-delay="200">
+          <div class="w-full aspect-square p-2 flex items-center justify-center bg-slate-50 rounded-lg border border-slate-100 group-hover:border-amber-400 group-hover:bg-white transition-all">
+            <img src="assets/brands/adani.svg" alt="Adani Solar Official Logo" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
           </div>
-          <div class="font-extrabold text-slate-900 text-sm">ADANI SOLAR</div>
-          <div class="text-[11px] text-slate-500 mt-0.5">Mono PERC ALMM</div>
+          <div class="mt-3">
+            <div class="font-extrabold text-slate-900 text-sm group-hover:text-amber-600 transition-colors">ADANI SOLAR</div>
+            <div class="text-[11px] text-slate-500 font-medium">Mono PERC ALMM</div>
+          </div>
         </div>
 
-        <div class="card-solid p-6 text-center flex flex-col items-center justify-center">
-          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-3">
-            <i data-lucide="cpu" class="w-6 h-6"></i>
+        <!-- 3. Rayzon Official Square Logo -->
+        <div class="card-solid p-4 text-center flex flex-col items-center justify-between group hover:-translate-y-2 hover:shadow-lg transition-all duration-300" data-aos="zoom-in" data-aos-delay="300">
+          <div class="w-full aspect-square p-2 flex items-center justify-center bg-slate-50 rounded-lg border border-slate-100 group-hover:border-amber-400 group-hover:bg-white transition-all">
+            <img src="assets/brands/rayzon.svg" alt="Rayzon Solar Official Logo" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
           </div>
-          <div class="font-extrabold text-slate-900 text-sm">RAYZON</div>
-          <div class="text-[11px] text-slate-500 mt-0.5">High Efficiency 550W</div>
+          <div class="mt-3">
+            <div class="font-extrabold text-slate-900 text-sm group-hover:text-amber-600 transition-colors">RAYZON</div>
+            <div class="text-[11px] text-slate-500 font-medium">High Efficiency 550W</div>
+          </div>
         </div>
 
-        <div class="card-solid p-6 text-center flex flex-col items-center justify-center">
-          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-3">
-            <i data-lucide="power" class="w-6 h-6"></i>
+        <!-- 4. Havells Official Square Logo -->
+        <div class="card-solid p-4 text-center flex flex-col items-center justify-between group hover:-translate-y-2 hover:shadow-lg transition-all duration-300" data-aos="zoom-in" data-aos-delay="400">
+          <div class="w-full aspect-square p-2 flex items-center justify-center bg-slate-50 rounded-lg border border-slate-100 group-hover:border-amber-400 group-hover:bg-white transition-all">
+            <img src="assets/brands/havells.svg" alt="Havells Official Logo" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
           </div>
-          <div class="font-extrabold text-slate-900 text-sm">HAVELLS</div>
-          <div class="text-[11px] text-slate-500 mt-0.5">On-Grid Inverters</div>
+          <div class="mt-3">
+            <div class="font-extrabold text-slate-900 text-sm group-hover:text-amber-600 transition-colors">HAVELLS</div>
+            <div class="text-[11px] text-slate-500 font-medium">On-Grid Inverters</div>
+          </div>
         </div>
 
-        <div class="card-solid p-6 text-center flex flex-col items-center justify-center">
-          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-3">
-            <i data-lucide="wifi" class="w-6 h-6"></i>
+        <!-- 5. Growatt Official Square Logo -->
+        <div class="card-solid p-4 text-center flex flex-col items-center justify-between group hover:-translate-y-2 hover:shadow-lg transition-all duration-300" data-aos="zoom-in" data-aos-delay="500">
+          <div class="w-full aspect-square p-2 flex items-center justify-center bg-slate-50 rounded-lg border border-slate-100 group-hover:border-amber-400 group-hover:bg-white transition-all">
+            <img src="assets/brands/growatt.svg" alt="Growatt Official Logo" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
           </div>
-          <div class="font-extrabold text-slate-900 text-sm">GROWATT</div>
-          <div class="text-[11px] text-slate-500 mt-0.5">Cloud Smart Inverters</div>
+          <div class="mt-3">
+            <div class="font-extrabold text-slate-900 text-sm group-hover:text-amber-600 transition-colors">GROWATT</div>
+            <div class="text-[11px] text-slate-500 font-medium">Cloud Smart Inverters</div>
+          </div>
         </div>
 
-        <div class="card-solid p-6 text-center flex flex-col items-center justify-center">
-          <div class="w-12 h-12 rounded-lg bg-slate-900 text-amber-500 flex items-center justify-center mb-3">
-            <i data-lucide="activity" class="w-6 h-6"></i>
+        <!-- 6. Sungrow Official Square Logo -->
+        <div class="card-solid p-4 text-center flex flex-col items-center justify-between group hover:-translate-y-2 hover:shadow-lg transition-all duration-300" data-aos="zoom-in" data-aos-delay="600">
+          <div class="w-full aspect-square p-2 flex items-center justify-center bg-slate-50 rounded-lg border border-slate-100 group-hover:border-amber-400 group-hover:bg-white transition-all">
+            <img src="assets/brands/sungrow.svg" alt="Sungrow Official Logo" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
           </div>
-          <div class="font-extrabold text-slate-900 text-sm">SUNGROW</div>
-          <div class="text-[11px] text-slate-500 mt-0.5">Commercial 3-Phase</div>
+          <div class="mt-3">
+            <div class="font-extrabold text-slate-900 text-sm group-hover:text-amber-600 transition-colors">SUNGROW</div>
+            <div class="text-[11px] text-slate-500 font-medium">Commercial 3-Phase</div>
+          </div>
         </div>
 
       </div>
@@ -950,7 +983,7 @@
   <section id="subsidy" class="py-20 bg-brand-light border-y border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
         <span class="inline-block px-3 py-1 rounded-lg bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider mb-3">
           Central Government Scheme
         </span>
@@ -965,7 +998,7 @@
       <!-- Subsidy Comparison Matrix -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-12">
         
-        <div class="bg-white p-8 rounded-lg border border-slate-200 shadow-sm text-center">
+        <div class="bg-white p-8 rounded-lg border border-slate-200 shadow-sm text-center hover:-translate-y-1 transition-transform" data-aos="fade-up" data-aos-delay="100">
           <div class="text-xs font-bold uppercase text-slate-500 tracking-wider mb-2">Compact Home</div>
           <div class="text-2xl font-extrabold text-slate-900 mb-1">1 kW Capacity</div>
           <div class="text-3xl font-extrabold text-amber-600 my-4">₹30,000</div>
@@ -977,7 +1010,7 @@
           </div>
         </div>
 
-        <div class="bg-white p-8 rounded-lg border border-slate-200 shadow-sm text-center">
+        <div class="bg-white p-8 rounded-lg border border-slate-200 shadow-sm text-center hover:-translate-y-1 transition-transform" data-aos="fade-up" data-aos-delay="200">
           <div class="text-xs font-bold uppercase text-slate-500 tracking-wider mb-2">Mid-Size Home</div>
           <div class="text-2xl font-extrabold text-slate-900 mb-1">2 kW Capacity</div>
           <div class="text-3xl font-extrabold text-amber-600 my-4">₹60,000</div>
@@ -990,7 +1023,7 @@
         </div>
 
         <!-- Most Popular Badge -->
-        <div class="bg-slate-900 text-white p-8 rounded-lg border border-slate-800 shadow-md text-center relative">
+        <div class="bg-slate-900 text-white p-8 rounded-lg border border-slate-800 shadow-md text-center relative hover:-translate-y-1 transition-transform" data-aos="fade-up" data-aos-delay="300">
           <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-500 text-slate-950 font-extrabold text-[10px] uppercase tracking-wider px-3 py-1 rounded-md">
             Most Popular in Indore
           </div>
@@ -1008,7 +1041,7 @@
       </div>
 
       <!-- Subsidy Claim Guarantee Strip -->
-      <div class="max-w-4xl mx-auto bg-emerald-50 border border-emerald-200 rounded-lg p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="max-w-4xl mx-auto bg-emerald-50 border border-emerald-200 rounded-lg p-6 flex flex-col sm:flex-row items-center justify-between gap-4" data-aos="zoom-in">
         <div class="flex items-center space-x-3 text-emerald-950">
           <i data-lucide="badge-check" class="w-8 h-8 text-emerald-600 flex-shrink-0"></i>
           <div>
@@ -1016,7 +1049,7 @@
             <div class="text-xs text-emerald-800">Everlasting Solar handles the complete National Portal registration, vendor selection, and DISCOM inspection paperwork.</div>
           </div>
         </div>
-        <a href="#contact" class="flex-shrink-0 inline-flex items-center px-5 py-2.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition-colors">
+        <a href="#contact" class="flex-shrink-0 inline-flex items-center px-5 py-2.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition-all hover:-translate-y-0.5">
           Claim Your Subsidy
         </a>
       </div>
@@ -1030,7 +1063,7 @@
   <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
         <span class="inline-block px-3 py-1 rounded-lg bg-amber-100 text-amber-800 text-xs font-bold uppercase tracking-wider mb-3">
           Customer Stories
         </span>
@@ -1045,7 +1078,7 @@
       <!-- Testimonial Cards Grid -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         
-        <div class="card-solid p-6 flex flex-col justify-between">
+        <div class="card-solid p-6 flex flex-col justify-between hover:-translate-y-1 transition-transform" data-aos="fade-up" data-aos-delay="100">
           <div>
             <div class="flex text-amber-500 mb-3 text-sm">
               <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
@@ -1065,7 +1098,7 @@
           </div>
         </div>
 
-        <div class="card-solid p-6 flex flex-col justify-between">
+        <div class="card-solid p-6 flex flex-col justify-between hover:-translate-y-1 transition-transform" data-aos="fade-up" data-aos-delay="200">
           <div>
             <div class="flex text-amber-500 mb-3 text-sm">
               <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
@@ -1085,7 +1118,7 @@
           </div>
         </div>
 
-        <div class="card-solid p-6 flex flex-col justify-between">
+        <div class="card-solid p-6 flex flex-col justify-between hover:-translate-y-1 transition-transform" data-aos="fade-up" data-aos-delay="300">
           <div>
             <div class="flex text-amber-500 mb-3 text-sm">
               <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
@@ -1116,7 +1149,7 @@
   <section id="faq" class="py-20 bg-brand-light border-y border-slate-200">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
         <span class="inline-block px-3 py-1 rounded-lg bg-slate-200 text-slate-800 text-xs font-bold uppercase tracking-wider mb-3">
           Got Questions?
         </span>
@@ -1129,7 +1162,7 @@
       </div>
 
       <!-- FAQ Items List -->
-      <div class="space-y-4">
+      <div class="space-y-4" data-aos="fade-up">
         
         <!-- FAQ 1 -->
         <div class="faq-item bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden">
@@ -1208,7 +1241,7 @@
   <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-14">
+      <div class="text-center max-w-3xl mx-auto mb-14" data-aos="fade-up">
         <span class="inline-block px-3 py-1 rounded-lg bg-amber-100 text-amber-800 text-xs font-bold uppercase tracking-wider mb-3">
           Physical Presence in Indore
         </span>
@@ -1220,7 +1253,7 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch" data-aos="fade-up">
         
         <!-- Office Location Details (5 cols) -->
         <div class="lg:col-span-5 bg-slate-900 text-white p-8 rounded-lg flex flex-col justify-between">
@@ -1269,7 +1302,7 @@
           </div>
 
           <div class="pt-6 border-t border-slate-800">
-            <a href="https://www.google.com/maps/place/Everlasting+Solar/@22.7403072,75.8282295,17z/data=!3m1!4b1!4m6!3m5!1s0x3962fd0056d34ab7:0xdebd5ccfdbc9d372!8m2!3d22.7403072!4d75.8282295!16s%2Fg%2F11x0n_lftl" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center py-3.5 px-4 rounded-lg bg-amber-600 hover:bg-amber-700 text-white font-bold text-sm transition-all shadow">
+            <a href="https://www.google.com/maps/place/Everlasting+Solar/@22.7403072,75.8282295,17z/data=!3m1!4b1!4m6!3m5!1s0x3962fd0056d34ab7:0xdebd5ccfdbc9d372!8m2!3d22.7403072!4d75.8282295!16s%2Fg%2F11x0n_lftl" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center py-3.5 px-4 rounded-lg bg-amber-600 hover:bg-amber-700 text-white font-bold text-sm transition-all shadow hover:-translate-y-0.5">
               <i data-lucide="navigation" class="w-4 h-4 mr-2"></i>
               <span>Open in Google Maps</span>
             </a>
@@ -1299,7 +1332,7 @@
   <section id="contact" class="py-20 bg-brand-light border-t border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="max-w-4xl mx-auto bg-white rounded-lg border border-slate-200 p-8 sm:p-12 shadow-sm">
+      <div class="max-w-4xl mx-auto bg-white rounded-lg border border-slate-200 p-8 sm:p-12 shadow-sm" data-aos="fade-up">
         
         <div class="text-center max-w-2xl mx-auto mb-10">
           <span class="inline-block px-3 py-1 rounded-lg bg-amber-100 text-amber-800 text-xs font-bold uppercase tracking-wider mb-2">
@@ -1325,12 +1358,12 @@
             
             <div>
               <label for="form-name" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Full Name *</label>
-              <input type="text" id="form-name" required placeholder="e.g. Sunil Verma" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-amber-600 text-slate-900">
+              <input type="text" id="form-name" required placeholder="e.g. Sunil Verma" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-amber-600 text-slate-900 transition-colors">
             </div>
 
             <div>
               <label for="form-phone" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Phone / WhatsApp Number *</label>
-              <input type="tel" id="form-phone" required placeholder="e.g. +91 98260 XXXXX" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-amber-600 text-slate-900">
+              <input type="tel" id="form-phone" required placeholder="e.g. +91 98260 XXXXX" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-amber-600 text-slate-900 transition-colors">
             </div>
 
           </div>
@@ -1339,12 +1372,12 @@
             
             <div>
               <label for="form-locality" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Locality in Indore *</label>
-              <input type="text" id="form-locality" required placeholder="e.g. Nipania / Vijay Nagar" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-amber-600 text-slate-900">
+              <input type="text" id="form-locality" required placeholder="e.g. Nipania / Vijay Nagar" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-amber-600 text-slate-900 transition-colors">
             </div>
 
             <div>
               <label for="form-bill" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Monthly Power Bill</label>
-              <select id="form-bill" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-amber-600 text-slate-900 bg-white">
+              <select id="form-bill" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-amber-600 text-slate-900 bg-white transition-colors">
                 <option value="₹1,500 - ₹3,000">₹1,500 – ₹3,000 / month</option>
                 <option value="₹3,000 - ₹6,000" selected>₹3,000 – ₹6,000 / month</option>
                 <option value="₹6,000 - ₹12,000">₹6,000 – ₹12,000 / month</option>
@@ -1354,7 +1387,7 @@
 
             <div>
               <label for="form-type" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">System Type</label>
-              <select id="form-type" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-amber-600 text-slate-900 bg-white">
+              <select id="form-type" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-amber-600 text-slate-900 bg-white transition-colors">
                 <option value="Residential Rooftop">Residential Rooftop</option>
                 <option value="Commercial Factory">Commercial / Factory Shed</option>
                 <option value="Housing Society RWA">Housing Society (RWA)</option>
@@ -1365,7 +1398,7 @@
           </div>
 
           <div class="pt-2">
-            <button type="submit" class="w-full py-4 px-6 rounded-lg bg-amber-600 hover:bg-amber-700 text-white font-bold text-base shadow transition-all flex items-center justify-center">
+            <button type="submit" class="w-full py-4 px-6 rounded-lg bg-amber-600 hover:bg-amber-700 text-white font-bold text-base shadow transition-all hover:-translate-y-0.5 flex items-center justify-center">
               <span>Submit for Free Proposal on WhatsApp</span>
               <i data-lucide="arrow-right" class="w-5 h-5 ml-2"></i>
             </button>
@@ -1490,6 +1523,9 @@
     </a>
 
   </div>
+
+  <!-- AOS (Animate On Scroll) JS Library -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <!-- App Logic & Motion Initialization -->
   <script src="js/app.js"></script>

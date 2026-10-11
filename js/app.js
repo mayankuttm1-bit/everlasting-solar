@@ -15,6 +15,16 @@ document.addEventListener('DOMContentLoaded', () => {
     window.lucide.createIcons();
   }
 
+  // Initialize AOS (Animate On Scroll)
+  if (window.AOS) {
+    window.AOS.init({
+      duration: 750,
+      easing: 'ease-out-cubic',
+      once: true,
+      offset: 50
+    });
+  }
+
   /* ==========================================================================
      1. STICKY HEADER SCROLL STATE
      ========================================================================== */
@@ -189,6 +199,7 @@ Please share a formal rooftop solar quotation for my property in Indore.`;
       });
       
       if (window.lucide) window.lucide.createIcons();
+      if (window.AOS) window.AOS.refresh();
     });
   });
 

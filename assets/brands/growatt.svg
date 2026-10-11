@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <rect width="200" height="200" rx="16" fill="#FFFFFF"/>
+  <rect x="2" y="2" width="196" height="196" rx="14" fill="none" stroke="#F1F5F9" stroke-width="2"/>
+  
+  <!-- Growatt Energy Arch Icon -->
+  <g transform="translate(100, 72)">
+    <!-- Outer Smart Arch -->
+    <path d="M-28 14 C-32 -16, -10 -30, 14 -28 C26 -26, 32 -16, 28 -4 C24 8, 12 18, -4 16" fill="none" stroke="#00A850" stroke-width="7" stroke-linecap="round"/>
+    
+    <!-- Inner Leaf / Power Wave -->
+    <path d="M-10 4 C-8 -8, 2 -14, 12 -12 C18 -10, 20 -4, 16 4" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Central Solar Spark -->
+    <circle cx="2" cy="-6" r="4" fill="#00A850"/>
+  </g>
+  
+  <!-- Official Growatt Wordmark -->
+  <text x="100" y="140" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="24" font-weight="900" fill="#1E293B" text-anchor="middle" letter-spacing="1">
+    Growatt
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="100" y="160" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#00A850" text-anchor="middle" letter-spacing="2">
+    SMART INVERTERS
+  </text>
+</svg>

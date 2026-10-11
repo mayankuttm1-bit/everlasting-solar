@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <rect width="200" height="200" rx="16" fill="#FFFFFF"/>
+  <rect x="2" y="2" width="196" height="196" rx="14" fill="none" stroke="#F1F5F9" stroke-width="2"/>
+  
+  <!-- Rayzon Solar Emblem -->
+  <g transform="translate(100, 72)">
+    <!-- Outer Solar Hex / Circle Rays -->
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#F37021" stroke-width="4" stroke-dasharray="14 6"/>
+    
+    <!-- Inner Core & Sun flare -->
+    <circle cx="0" cy="0" r="18" fill="#0C2340"/>
+    <path d="M0 -14 L4 0 L0 14 L-4 0 Z" fill="#F37021"/>
+    <circle cx="0" cy="0" r="5" fill="#FFFFFF"/>
+    
+    <!-- Ray Accent -->
+    <path d="M16 -16 L26 -26" stroke="#F37021" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Official Wordmark -->
+  <text x="100" y="140" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="22" font-weight="900" fill="#0C2340" text-anchor="middle" letter-spacing="2">
+    RAYZON
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="100" y="160" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="11" font-weight="800" fill="#F37021" text-anchor="middle" letter-spacing="4">
+    SOLAR
+  </text>
+</svg>

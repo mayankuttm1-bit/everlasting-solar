@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <rect width="200" height="200" rx="16" fill="#FFFFFF"/>
+  <rect x="2" y="2" width="196" height="196" rx="14" fill="none" stroke="#F1F5F9" stroke-width="2"/>
+  
+  <!-- Havells Official Red Monogram Box -->
+  <g transform="translate(100, 72)">
+    <rect x="-30" y="-30" width="60" height="60" rx="12" fill="#ED1C24"/>
+    
+    <!-- Iconic White Geometric "H" -->
+    <path d="M-16 -18 L-8 -18 L-8 -4 L8 -4 L8 -18 L16 -18 L16 18 L8 18 L8 4 L-8 4 L-8 18 L-16 18 Z" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Official Havells Wordmark -->
+  <text x="100" y="142" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="22" font-weight="900" fill="#ED1C24" text-anchor="middle" letter-spacing="2">
+    HAVELLS
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="100" y="162" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#64748B" text-anchor="middle" letter-spacing="1.5">
+    SOLAR INVERTERS
+  </text>
+</svg>

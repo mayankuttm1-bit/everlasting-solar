@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <rect width="200" height="200" rx="16" fill="#FFFFFF"/>
+  <rect x="2" y="2" width="196" height="196" rx="14" fill="none" stroke="#F1F5F9" stroke-width="2"/>
+  
+  <!-- Adani Iconic Tricolor Arc Ribbon -->
+  <g transform="translate(100, 72)">
+    <!-- Top Arc: Magenta / Purple -->
+    <path d="M-36 -8 C-20 -28, 20 -28, 36 -8" fill="none" stroke="#A02B73" stroke-width="7" stroke-linecap="round"/>
+    
+    <!-- Middle Arc: Cyan / Teal -->
+    <path d="M-38 2 C-20 -16, 20 -16, 38 2" fill="none" stroke="#008272" stroke-width="7" stroke-linecap="round"/>
+    
+    <!-- Bottom Arc: Deep Blue -->
+    <path d="M-40 12 C-20 -4, 20 -4, 40 12" fill="none" stroke="#005A9C" stroke-width="7" stroke-linecap="round"/>
+    
+    <!-- Sun Ray / Energy Dot -->
+    <circle cx="0" cy="-32" r="5" fill="#F59E0B"/>
+  </g>
+  
+  <!-- Official Adani Wordmark -->
+  <text x="100" y="138" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="28" font-weight="900" fill="#005A9C" text-anchor="middle" letter-spacing="-0.5">
+    adani
+  </text>
+  
+  <!-- Solar Wordmark -->
+  <text x="100" y="160" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="12" font-weight="800" fill="#008272" text-anchor="middle" letter-spacing="3.5">
+    SOLAR
+  </text>
+</svg>
